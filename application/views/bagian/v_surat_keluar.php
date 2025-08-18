@@ -381,7 +381,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <script src="<?= base_url('assets/assets/ckeditor/ckeditor.js') ?>"></script>
 
 <script>
-    // Initialize CKEditor untuk form tambah
+    // test data
     CKEDITOR.replace('ckeditor_tambah');
 
     // Initialize CKEditor untuk form edit

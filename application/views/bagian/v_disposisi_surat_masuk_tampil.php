@@ -37,7 +37,7 @@ print_r($user);
                 <a href="<?= site_url() . "/" . $this->uri->segment('1') . "/disposisi/rekap" ?>"><button type="button" class="btn btn-warning btn-sm"><i class="bi bi-folder-check"></i> Rekap Disposisi Surat Masuk</button></a>
                 -->
                 <button type="button" class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#UpdateStatusSurat"><i class="bi bi-folder-check"></i> Update Status Surat </button>
-                <button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#tampilLog"><i class="bi bi-card-list"></i> Log Akses </button>
+                <button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#tampilLog"><i class="bi bi-card-list"></i> Log Surat </button>
             </div>
         </div>
 

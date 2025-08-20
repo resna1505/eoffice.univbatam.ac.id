@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Surat Permohonan Pengambilan KRS</title>
+    <title><?= isset($perihal) ? $perihal : 'Permohonan Pengambilan KRS' ?></title>
     <style>
         body {
             font-family: Arial, sans-serif;
